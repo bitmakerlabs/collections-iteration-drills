@@ -10,8 +10,8 @@ This assignment will provide repetitious exercises in order to practice dealing 
 * variables
 * string interpolation
 * conditionals/flow control
-* had lesson on collections/iteration
-
+* basic understanding of collections/iteration
+* readiness to look things up online!
 
 
 ## Submission
@@ -34,59 +34,68 @@ Eg. `fav_colours = ` ...
 
 1. Create a hash that contains the given information:
   * three words and their definitions
-  * your favourite movie names and their year of creation [COULD BE BETTER FOR ARRAYS IN HASHES]
+  * your favourite movie names and their year of creation
   * three cities of the world and their population
   * the names of your siblings/cousins/friends and their ages
 
 
 ## Exercise 1
-###### Accessing Values from Arrays and Hashes
 
-1. For all of the arrays above, print out:
-  * the first element
-  * the last element
-  * the first two elements
-  * the last two elements
+1. Print out the array of coin flips.
+1. Print out the first element of the array of your favourite colours.
+1. Output the sorted version of the array of your friends and family members' ages.
 
-1. For all of the hashes above, print out:
-  * one of the stored values
+1. Add a new baby (0 years old) to the array of your family's ages.
+1. Using the hash of movie information, access and print the year of one of the movies.
 
 
 ## Exercise 2
-###### Sorting and Reversing
 
-1. For each of your arrays, print out the reversed version of that array.
-1. For each of your arrays, print out the sorted version of that array.
-1. For each of your arrays, sort the array, reverse it, and then print it out.
-  * See if you can do the above all on one line!
+1. Print out the last element of the array of your favourite colours.
+  * Note: this should work for an array of any size!
+1. Add a new city to the hash of cities and population.
+1. Reverse the array of coin flips and save it.
+1. Print out the population of one of the cities.
+1. Print out a sentence about each item in the array of performing artists. For example:
+  * `I think Pearl Jam is great.`
+  * `I think Lady Gaga is great.`
+  * `I think Pink Floyd is great.`
 
 
 ## Exercise 3
-###### Iteration
 
-1. For each of your arrays, print out a sentence about each item in the array.
-  * For example, for your `fav_colours` array, you might print:
-    * `My favourite colour is red.`
-    * `My favourite colour is green.`
-    * `My favourite colour is blue.`
-
-
-2. For each of your hashes, print out a sentence that includes both the key and the value of the item.
-  * For example, for the hash storing the names and ages of your friends/relatives, you might get:
-    * `Mary is 8 years old.`
-    * `Chantal is 33 years old.`
-    * `Tan is 42 years old.`
+1. Print out the first two performing artists in that array.
+1. For each of your favourite movies, print out a sentence about when the movie was released. For example:
+  * `Avatar came out in 2009.`
+  * `Mean Girls came out in 2004.`
+  * `The Matrix came out in 1999.`
+1. Sort and reverse the array of ages of your family. Save it and print it to the screen.
+  * See if you can sort and reverse the array on one line!
+1. Add "Beauty and the Beast" movie to your hash of movies information, but with a twist: the movie was released both in 1991 and in 2017. Print it out.
 
 
 ## Exercise 4
-###### Adding New Elements
 
-1. Append an element to each one of your arrays.
-
-1. Add a new key/value pair to each one of your hashes.
+1. Print out all of the ages of your friends/family that are less than 30 (or any number where some ages will not be printed!).
+1. Find and output the age of the oldest person in your friends/family array.
+1. Count how many times you flipped 'heads' using the coin flips array.
+1. You realize one of the performing artists in your list is no longer a favourite. Remove one of them from the array.
+1. Pick a city in your city population hash and change its population.
 
 
 ## Exercise 5
+
+1. Find the sum total of the population in the hash of cities.
+1. Using your hash containing the names of your family and friends with their ages, print out one of two messages for each depending on their age. For example:
+  * `Martha is old.`
+  * `Stewart is young.`
+  * `Holly is young.`
+1. Print out the last two colours in your array of favourite colours.
+1. Increase by 1 the age of everyone in your array of ages. Print it out.
+1. Add two new colours to your array of favourite colours.
+
+
+## Exercise 6
 ###### Composing Arrays and Hashes
 
 1. Make a new hash that contains a list of movies for each year. Each list of movies should be an array. Below is some data you can use.
@@ -113,6 +122,8 @@ Eg. `fav_colours = ` ...
 
 1. Create a new array which has three of each number up to 50.
   * Ie. `[1, 1, 1, 2, 2, 2, 3, 3, 3, ... , 50, 50, 50]` and so on, up to 50.
+
+1. Make a new array out all of the countries from the hash in Exercise 6 that are not islands. Print out both arrays.
 
 
 ## Exercise 7 - Stretch
